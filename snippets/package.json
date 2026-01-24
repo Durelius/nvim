@@ -1,0 +1,12 @@
+{
+  "name": "personal-snippets",
+  "contributes": {
+    "snippets": [
+      { "language": "go", "path": "./go.json" },
+      { "language": "tex", "path": "./latex.json" },
+      { "language": "typescriptreact", "path": "./reactts.json" },
+      { "language": "cpp", "path": "./cpp.json" },
+      { "language": "java", "path": "./java.json" }
+    ]
+  }
+}
