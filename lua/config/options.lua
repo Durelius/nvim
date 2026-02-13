@@ -18,3 +18,4 @@ vim.o.wrap = false
 
 vim.o.ignorecase = true
 vim.o.smartcase = true
+

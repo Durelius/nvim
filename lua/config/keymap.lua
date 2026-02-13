@@ -39,9 +39,7 @@ local diagnostic_goto = function(next, severity)
   end
 end
 vim.keymap.set("n", "<C-e>", diagnostic_goto(true, "ERROR"), { desc = "Next Error" })
-vim.keymap.set("n", "<C-r>", diagnostic_goto(false, "ERROR"), { desc = "Prev Error" })
-vim.keymap.set("n", "<C-w>", diagnostic_goto(true, "WARN"), { desc = "Next Warning" })
-vim.keymap.set("n", "<C-q>", diagnostic_goto(false, "WARN"), { desc = "Prev Warning" })
+vim.keymap.set("n", "<C-r>", diagnostic_goto(true, "WARN"), { desc = "Next Warning" })
 -- end remap error jump
 
 vim.keymap.set("n", "cr", ":IncRename ")
